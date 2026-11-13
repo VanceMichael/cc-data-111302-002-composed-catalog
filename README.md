@@ -4,7 +4,7 @@
 
 ## 环境与命令
 
-Node.js 22.22.1 或更新的 22.x。依赖由 package-lock.json 锁定。
+Node.js 22.20.0 或更新的 22.x。依赖由 package-lock.json 锁定。
 
 ```sh
 npm ci --ignore-scripts
