@@ -1,0 +1,430 @@
+{
+  "schema": "composed-catalog/1",
+  "pageUrl": "http://127.0.0.1:43773/index.html",
+  "generatedAt": "2026-11-14T16:11:32.602Z",
+  "status": "stable",
+  "complete": true,
+  "identity": {
+    "device": "D-1",
+    "generation": "1",
+    "at": "article"
+  },
+  "fields": [
+    {
+      "field": "power",
+      "value": "8 kW",
+      "text": "8 kW",
+      "visible": true,
+      "layer": "shadow-root(device-card#card)",
+      "element": "span#power",
+      "rootPath": [
+        {
+          "kind": "document",
+          "url": "http://127.0.0.1:43773/index.html"
+        },
+        {
+          "kind": "shadow-root",
+          "mode": "open",
+          "host": "device-card#card"
+        }
+      ],
+      "path": [
+        "html",
+        "body",
+        "device-card#card",
+        "#shadow-root",
+        "article"
+      ],
+      "frame": {
+        "kind": "main",
+        "token": null,
+        "url": null,
+        "status": "ready",
+        "identity": null
+      },
+      "device": {
+        "device": "D-1",
+        "generation": "1",
+        "at": "article",
+        "rootPath": [
+          {
+            "kind": "document",
+            "url": "http://127.0.0.1:43773/index.html"
+          },
+          {
+            "kind": "shadow-root",
+            "mode": "open",
+            "host": "device-card#card"
+          }
+        ],
+        "path": [
+          "html",
+          "body",
+          "device-card#card",
+          "#shadow-root"
+        ]
+      }
+    },
+    {
+      "field": "label",
+      "value": "额定功率",
+      "text": "额定功率",
+      "visible": true,
+      "layer": "slot(device-card#card)",
+      "slotFrom": "assigned",
+      "element": "device-card#card",
+      "rootPath": [
+        {
+          "kind": "document",
+          "url": "http://127.0.0.1:43773/index.html"
+        }
+      ],
+      "path": [
+        "html",
+        "body",
+        "device-card#card"
+      ],
+      "slotHostRootPath": [
+        {
+          "kind": "document",
+          "url": "http://127.0.0.1:43773/index.html"
+        },
+        {
+          "kind": "shadow-root",
+          "mode": "open",
+          "host": "device-card#card"
+        }
+      ],
+      "frame": {
+        "kind": "main",
+        "token": null,
+        "url": null,
+        "status": "ready",
+        "identity": null
+      },
+      "device": {
+        "device": "D-1",
+        "generation": "1",
+        "at": "article",
+        "rootPath": [
+          {
+            "kind": "document",
+            "url": "http://127.0.0.1:43773/index.html"
+          },
+          {
+            "kind": "shadow-root",
+            "mode": "open",
+            "host": "device-card#card"
+          }
+        ],
+        "path": [
+          "html",
+          "body",
+          "device-card#card",
+          "#shadow-root"
+        ]
+      }
+    },
+    {
+      "field": "price",
+      "value": "1200.00",
+      "text": "1200.00",
+      "visible": true,
+      "layer": "iframe(run-13873547:1) > main-document",
+      "element": "span#price",
+      "rootPath": [
+        {
+          "kind": "document",
+          "url": "http://localhost:43773/quote.html?nonce=1794672692269"
+        }
+      ],
+      "path": [
+        "html",
+        "body"
+      ],
+      "frame": {
+        "kind": "iframe",
+        "token": "run-13873547:1",
+        "url": "http://localhost:43773/quote.html?nonce=1794672692269",
+        "status": "ready",
+        "identity": {
+          "device": "D-1",
+          "generation": "1",
+          "at": "frame-document"
+        }
+      },
+      "device": {
+        "device": "D-1",
+        "generation": "1",
+        "at": "body",
+        "rootPath": [
+          {
+            "kind": "document",
+            "url": "http://localhost:43773/quote.html?nonce=1794672692269"
+          }
+        ],
+        "path": [
+          "html"
+        ]
+      }
+    }
+  ],
+  "frames": [
+    {
+      "token": "run-13873547:1",
+      "tokenFallback": false,
+      "parentToken": null,
+      "depth": 0,
+      "src": "http://localhost:43773/quote.html?nonce=1794672692269",
+      "title": "设备报价",
+      "url": "http://localhost:43773/quote.html?nonce=1794672692269",
+      "status": "ready",
+      "detail": null,
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "identity": {
+        "device": "D-1",
+        "generation": "1",
+        "at": "frame-document"
+      },
+      "elementPath": [
+        "html",
+        "body",
+        "device-card#card",
+        "#shadow-root",
+        "article"
+      ],
+      "elementRootPath": [
+        {
+          "kind": "document",
+          "url": "http://127.0.0.1:43773/index.html"
+        },
+        {
+          "kind": "shadow-root",
+          "mode": "open",
+          "host": "device-card#card"
+        }
+      ],
+      "boundary": null
+    }
+  ],
+  "layers": [
+    {
+      "source": "main",
+      "token": null,
+      "status": "ready",
+      "roots": [
+        {
+          "id": "run-13873547:root:1",
+          "host": "#document",
+          "mode": "document",
+          "rootPath": [
+            {
+              "kind": "document",
+              "url": "http://127.0.0.1:43773/index.html"
+            }
+          ]
+        },
+        {
+          "id": "run-13873547:root:2",
+          "host": "device-card#card",
+          "mode": "open",
+          "rootPath": [
+            {
+              "kind": "document",
+              "url": "http://127.0.0.1:43773/index.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "iframe",
+      "token": "run-13873547:1",
+      "status": "ready",
+      "roots": [
+        {
+          "id": "run-13873547:1:root:1",
+          "host": "#document",
+          "mode": "document",
+          "rootPath": [
+            {
+              "kind": "document",
+              "url": "http://localhost:43773/quote.html?nonce=1794672692269"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "unresolved": [],
+  "truncated": false,
+  "warnings": [],
+  "trace": [
+    {
+      "at": 55,
+      "error": null,
+      "identity": {
+        "device": "D-1",
+        "generation": "1",
+        "at": "article"
+      },
+      "transition": null,
+      "frames": [
+        {
+          "token": "run-13873547:1",
+          "parentToken": null,
+          "status": "ready",
+          "url": "http://localhost:43773/quote.html?nonce=1794672692269",
+          "identity": {
+            "device": "D-1",
+            "generation": "1",
+            "at": "frame-document"
+          }
+        }
+      ],
+      "fields": [
+        {
+          "field": "power",
+          "value": "8 kW",
+          "layer": "shadow-root(device-card#card)",
+          "frame": "main",
+          "device": {
+            "device": "D-1",
+            "generation": "1"
+          }
+        },
+        {
+          "field": "label",
+          "value": "额定功率",
+          "layer": "slot(device-card#card)",
+          "frame": "main",
+          "device": {
+            "device": "D-1",
+            "generation": "1"
+          }
+        },
+        {
+          "field": "price",
+          "value": "1200.00",
+          "layer": "iframe(run-13873547:1) > main-document",
+          "frame": "run-13873547:1",
+          "device": {
+            "device": "D-1",
+            "generation": "1"
+          }
+        }
+      ]
+    },
+    {
+      "at": 189,
+      "error": null,
+      "identity": {
+        "device": "D-1",
+        "generation": "1",
+        "at": "article"
+      },
+      "transition": null,
+      "frames": [
+        {
+          "token": "run-13873547:1",
+          "parentToken": null,
+          "status": "ready",
+          "url": "http://localhost:43773/quote.html?nonce=1794672692269",
+          "identity": {
+            "device": "D-1",
+            "generation": "1",
+            "at": "frame-document"
+          }
+        }
+      ],
+      "fields": [
+        {
+          "field": "power",
+          "value": "8 kW",
+          "layer": "shadow-root(device-card#card)",
+          "frame": "main",
+          "device": {
+            "device": "D-1",
+            "generation": "1"
+          }
+        },
+        {
+          "field": "label",
+          "value": "额定功率",
+          "layer": "slot(device-card#card)",
+          "frame": "main",
+          "device": {
+            "device": "D-1",
+            "generation": "1"
+          }
+        },
+        {
+          "field": "price",
+          "value": "1200.00",
+          "layer": "iframe(run-13873547:1) > main-document",
+          "frame": "run-13873547:1",
+          "device": {
+            "device": "D-1",
+            "generation": "1"
+          }
+        }
+      ]
+    },
+    {
+      "at": 322,
+      "error": null,
+      "identity": {
+        "device": "D-1",
+        "generation": "1",
+        "at": "article"
+      },
+      "transition": null,
+      "frames": [
+        {
+          "token": "run-13873547:1",
+          "parentToken": null,
+          "status": "ready",
+          "url": "http://localhost:43773/quote.html?nonce=1794672692269",
+          "identity": {
+            "device": "D-1",
+            "generation": "1",
+            "at": "frame-document"
+          }
+        }
+      ],
+      "fields": [
+        {
+          "field": "power",
+          "value": "8 kW",
+          "layer": "shadow-root(device-card#card)",
+          "frame": "main",
+          "device": {
+            "device": "D-1",
+            "generation": "1"
+          }
+        },
+        {
+          "field": "label",
+          "value": "额定功率",
+          "layer": "slot(device-card#card)",
+          "frame": "main",
+          "device": {
+            "device": "D-1",
+            "generation": "1"
+          }
+        },
+        {
+          "field": "price",
+          "value": "1200.00",
+          "layer": "iframe(run-13873547:1) > main-document",
+          "frame": "run-13873547:1",
+          "device": {
+            "device": "D-1",
+            "generation": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

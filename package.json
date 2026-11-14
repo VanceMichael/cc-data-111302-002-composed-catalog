@@ -10,6 +10,7 @@
     "test": "node --test",
     "build": "node scripts/check.mjs",
     "start": "node src/serve.mjs",
+    "crawl": "node src/crawl.mjs",
     "demo": "node src/demo.mjs"
   },
   "dependencies": {
